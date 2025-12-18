@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fetch-xahaud-latest",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-12-18",
+  "routes": [
+    {
+      "pattern": "binary.xahau.tools",
+      "custom_domain": true
+    }
+  ]
+}
