@@ -21,7 +21,7 @@ app.get('/', async (c) => {
   if (filenames.length === 0)
     return c.json({ error: 'File not found' }, 404)
   
-  return c.text(filenames[0])
+  return c.redirect(URL + filenames[0], 302)
 })
 
 
@@ -32,7 +32,7 @@ app.get('/release/:releaseType?', async (c) => {
   if (filenames.length === 0)
     return c.json({ error: 'Invalid release type' }, 400)
   
-  return c.text(filenames[0])
+  return c.redirect(URL + filenames[0], 302)
 })
 
 app.get('/releases/:releaseType?', async (c) => {

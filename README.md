@@ -1,3 +1,35 @@
+### Latest release binary
+
+```txt
+https://binary.xahau.tools/
+```
+
+### Latest dev branch binary
+
+```txt
+https://binary.xahau.tools/release/dev
+```
+
+### Latest HEAD binary
+
+```txt
+https://binary.xahau.tools/release/HEAD
+```
+
+### Binary list
+
+```txt
+https://binary.xahau.tools/releases/release
+```
+```txt
+https://binary.xahau.tools/releases/dev
+```
+```txt
+https://binary.xahau.tools/releases/HEAD
+```
+
+### Development
+
 ```txt
 npm install
 npm run dev
